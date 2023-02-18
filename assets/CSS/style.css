@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    font-family: sans-serif;
+}
+/*hepler classes*/
+.d-flex{
+    display: flex;
+}
+.d-flex-cloumn{
+    flex-direction: column;
+}
+.align-items-center{
+    align-items: center;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.height-100{
+    height: 100%;
+}
+.wrapper{
+    background-image: url(../Images/gardner.jpeg );
+}
+.links .link-list{
+    text-decoration: none;
+    list-style: none;
+}
+.a-list{
+    text-decoration: none;
+    
+}
+.links{
+    gap: 30px;
+}
+.navbar{
+    padding: 30px;
+    
+    background-color: rgba(171, 198, 171, 0.552);
+}
